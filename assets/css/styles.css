@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    height: 100%;
+    height: 100vh;
+}
+
+#container {
+    margin:0;
+    padding:0;
+    height: 100%;
+}
+
+header {
+    margin: 0 auto;
+    padding:0;
+    width: 960px;
+    
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+ #mainLogo {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin: 0;
+    height: 60px;
+    width: 300px;
+    padding-top: 25px;
+    float: left;
+    text-align: center;
+} 
+
+  nav {
+    float: right;
+    margin: 0;
+    padding-top: 17px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    font-size: 20px;
+    color: black;
+}
+
+.leftBorder {
+    padding-left: 20px;
+    border-left: 2px solid rgba(0, 0, 0, 0.05);
+}
+
+li:nth-child(1) {
+    padding-right: 20px;
+}
+
+li:nth-child(2) {
+    padding-right: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.line {
+    background-color: #cccccc;
+    height: 2px;
+}
+
+#aboutMe {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    width: 920px;
+}
+
+
+#contactPhoto {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+#backgroundImage {
+    background-image: url("../images/interlaced.png");
+    height: 100%;
+    padding-top: 25px
+}
+
+footer {
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    padding-top: 35px;
+    padding-bottom: 8px;
+    border-top: solid #4aaaa5 6px;
+} 
+
+#contactBox {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    width: 920px; 
+}
+
+input {
+    width: 915px;
+    margin:0;
+}
+
+#portfolioBox {
+    background-color: #ffffff;
+    margin: 0 auto;
+    padding: 20px;
+    width: 920px; 
+}
+
+.portfolioPictures {
+    height: 170px;
+    width: 250px;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 280px 280px;
+    padding-top:40px;
+}
+
+.gridItem {
+    text-align: center;
+}
+
+.pictureTitles {
+    height: 30px;;
+    width: 250px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 10px;
+    position: relative;
+    left: 15px;
+    bottom: 50px;    
+}
+
+#contactForm {
+    margin-top: 20px;
+}
+
+#submitButton {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 110px;
+    font-size: 15px;
+    padding: 5px 0;
+}
+
+.inputLine {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    width: 100%
+}
+textarea {
+    width: 100%
+}
