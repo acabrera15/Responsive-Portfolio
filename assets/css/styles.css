@@ -182,7 +182,22 @@ textarea {
 }
 
 @media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+    }
 
+    ul {
+        padding-right: 50px;
+    }
+    #mainLogo {
+        margin-left: 50px;
+    }
+
+    #aboutMe {
+        width: 500px;
+        margin-right: 390px;
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
