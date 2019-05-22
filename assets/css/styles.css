@@ -204,7 +204,7 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-        #mainLogo {
+     #mainLogo {
         margin-left: 25px;
     }
 
@@ -221,5 +221,14 @@ textarea {
 }
 
 @media screen and (max-width: 640px) {
-    
+    #mainLogo {
+        width: 100%;
+        margin: 0;
+    }
+    nav {
+        width: 100%
+    }
+    ul {
+        width: 100%;
+    }
 }
