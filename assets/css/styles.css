@@ -11,6 +11,7 @@ body {
     margin:0;
     padding:0;
     height: 100%;
+    width: 100%
 }
 
 header {
@@ -101,6 +102,7 @@ li:nth-child(2) {
 #backgroundImage {
     background-image: url("../images/interlaced.png");
     height: 100%;
+    width: 100%;
     padding-top: 25px
 }
 
@@ -189,6 +191,7 @@ textarea {
     ul {
         padding-right: 50px;
     }
+
     #mainLogo {
         margin-left: 50px;
     }
@@ -201,7 +204,20 @@ textarea {
 }
 
 @media screen and (max-width: 768px) {
-    
+        #mainLogo {
+        margin-left: 25px;
+    }
+
+    ul {
+        padding-right: 25px;
+    }
+
+    #aboutMe {
+        width: 90%;
+        padding: 0;
+        margin:0;
+        margin-left: 25px;
+    }
 }
 
 @media screen and (max-width: 640px) {
