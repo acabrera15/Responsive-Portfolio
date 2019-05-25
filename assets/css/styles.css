@@ -240,6 +240,24 @@ textarea {
         margin:0 auto;
 
     }
+
+    #portfolioBox {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .gridContainer {
+        grid-template-columns: 50% 50%;    
+    }
+
+    .portfolioPictures {
+        width: 97%;
+    }
+
+    .pictureTitles {
+        width: 97%;
+        left: 5px;
+    }
 }
 
 @media screen and (max-width: 640px) {
