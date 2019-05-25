@@ -92,6 +92,9 @@ li:nth-child(2) {
     width: 920px;
 }
 
+#pad {
+    margin-top: 20px;
+}
 
 #contactPhoto {
     float: left;
@@ -214,9 +217,8 @@ textarea {
 
     #aboutMe {
         width: 90%;
-        padding: 0;
-        margin:0;
-        margin-left: 25px;
+        margin:0 auto;
+
     }
 }
 
@@ -229,6 +231,12 @@ textarea {
         width: 100%
     }
     ul {
-        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #aboutMe {
+        width: 80%;
+        margin: 0 auto;
     }
 }
