@@ -204,6 +204,26 @@ textarea {
         margin-right: 390px;
         margin-left: 50px;
     }
+
+    #portfolioBox {
+        width: 500px;
+        margin-right: 390px;
+        margin-left: 50px;
+    }
+
+    .portfolioPictures {
+        width: 230px;
+    }
+
+    .pictureTitles {
+        width: 230px;
+        left: 10px;
+    }
+
+    .gridContainer {
+        grid-template-columns: 250px 250px;
+
+    }
 }
 
 @media screen and (max-width: 768px) {
